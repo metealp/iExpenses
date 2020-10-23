@@ -11,6 +11,8 @@
 		EF3088022543676B003E7E8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3088012543676B003E7E8D /* ContentView.swift */; };
 		EF3088042543676E003E7E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3088032543676E003E7E8D /* Assets.xcassets */; };
 		EF3088072543676E003E7E8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3088062543676E003E7E8D /* Preview Assets.xcassets */; };
+		EF308810254367A3003E7E8D /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30880F254367A3003E7E8D /* ExpenseModel.swift */; };
+		EF30881525436C92003E7E8D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30881425436C92003E7E8D /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EF3088032543676E003E7E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF3088062543676E003E7E8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF3088082543676E003E7E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF30880F254367A3003E7E8D /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		EF30881425436C92003E7E8D /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				EF3087FF2543676B003E7E8D /* iExpensesApp.swift */,
 				EF3088012543676B003E7E8D /* ContentView.swift */,
+				EF30881425436C92003E7E8D /* AddView.swift */,
+				EF30880F254367A3003E7E8D /* ExpenseModel.swift */,
 				EF3088032543676E003E7E8D /* Assets.xcassets */,
 				EF3088082543676E003E7E8D /* Info.plist */,
 				EF3088052543676E003E7E8D /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF30881525436C92003E7E8D /* AddView.swift in Sources */,
 				EF3088022543676B003E7E8D /* ContentView.swift in Sources */,
+				EF308810254367A3003E7E8D /* ExpenseModel.swift in Sources */,
 				EF3088002543676B003E7E8D /* iExpensesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
